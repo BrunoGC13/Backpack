@@ -1,0 +1,23 @@
+name: Backpack
+version: '1.0-RELEASE'
+main: org.tgc.Main
+api-version: '1.21'
+commands:
+  backpack:
+    description: Opens your backpack
+    usage: /backpack
+    permission: backpack.bp
+    permission-message: You don't have permission to use this command!
+  seebackpack:
+    description: View another player's backpack
+    usage: /seebackpack <player>
+    permission: backpack.see
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  backpack.see:
+    description: Allows viewing another player's backpack
+    default: op
+  backpack.bp:
+    description: Allow you to open your backpack
+    default: true
