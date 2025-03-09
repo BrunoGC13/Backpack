@@ -11,7 +11,7 @@ cd Backpack
 ```bash
 .\gradlew build
 ```
-4. Drag the builded .jar file from \build\libs to your servers plugin direcotry. (you can also download the latest jar file from the releases) 
+4. Drag the built .jar file from \build\libs to your servers plugin direcotry. (you can also download the latest jar file from the releases) 
 
 # Commands
 - /backpack
